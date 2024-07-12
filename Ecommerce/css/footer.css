@@ -1,0 +1,17 @@
+footer{
+
+    text-align: center;
+    background-color: var(--footer-bg);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-block: 1rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 17px;
+}
+
+footer span{
+
+    color: crimson;
+    text-transform: capitalize;
+}

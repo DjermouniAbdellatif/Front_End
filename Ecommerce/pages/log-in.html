@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap  -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/register.css">
+
+    <title>Connexion</title>
+
+</head>
+
+<body style="height: 100vh; display: grid; 
+grid-template-rows:auto 1fr auto ;
+align-items: center;" class="  text-center text-bg-dark">
+
+    <header class="flex ">
+
+        <a class="logo" href="../pages/index.html">
+            <i class="fa-solid fa-shopping-bag" aria-hidden="true"></i>
+            <span style="font-weight: 800;">MHD</span>
+            <p style="letter-spacing: 0.5px; font-size: 1.2rem;font-weight: 00; ">Store</p>
+        </a>
+
+        <div class="links">
+
+            <a href="../pages/cart.html" class="cart" style="position: relative; color: white;">
+                <i class="fa-solid fa-bag-shopping" style="color: white;">
+                    $0.00
+
+                </i>
+                <span class="product-number">2</span>
+
+            </a>
+            <a href="#" class="sign-in border">
+                <i class="fa-solid fa-sign-in" aria-hidden="true"></i>
+                Connexion</a>
+            <a href="./register.html" class="register ">
+
+                <i class="fa-solid fa-user-plus" aria-hidden="true"></i>
+
+                Crée un compte</a>
+        </div>
+
+    </header>
+
+
+
+    <main class="px-3 " style="padding:20px;">
+
+        <form style="text-align: left; ">
+
+            <div class="form-group mb-4">
+                <label for="email" class="mb-2">Email </label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+            </div>
+            <div class="form-group mb-4">
+                <label for="password" class="mb-2">Mot de passe</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+
+            <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in" style="color: white; margin-right: 5px;" aria-hidden="true"></i>
+                Connexion</button>
+        </form>
+    </main>
+
+    <footer class="lead">
+        Designed by <span>Djermouni Abdellatif</span>
+        &#169; 2021
+    </footer>
+
+
+
+
+<script src="../JS/log-in.js"></script>
+</body>
+
+</html>
